@@ -1,4 +1,4 @@
-# Repeat Hello World Repo
+# Repeat Hello World Cpp Repo
 
-- Simple repo that utilizes the Hello World library via CMake's fetchcontent
-- Serves as an example of a project that has a dependency on another project
+- Simple repo identical to Repeat Hello World repo, but in C++ instead of C
+- Serves as an example of a C++ project dependent on a C project

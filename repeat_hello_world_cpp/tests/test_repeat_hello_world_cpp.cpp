@@ -1,17 +1,14 @@
 /*================================ FILE INFO =================================*/
 /* Filename           : test_repeat_hello_world.cpp                           */
 /*                                                                            */
-/* Test implementation for repeat_hello_world.c                               */
+/* Test implementation for repeat_hello_world_cpp.cpp                         */
 /*                                                                            */
 /*============================================================================*/
 
 /*============================================================================*/
 /*                               Include Files                                */
 /*============================================================================*/
-extern "C" {
-#include "repeat_hello_world.h"
-}
-
+#include "repeat_hello_world_cpp.hpp"
 #include <CppUTest/TestHarness.h>
 #include <CppUTestExt/MockSupport.h>
 

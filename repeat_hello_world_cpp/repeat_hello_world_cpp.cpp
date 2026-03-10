@@ -1,5 +1,5 @@
 /*-------------------------------- FILE INFO ---------------------------------*/
-/* Filename           : repeat_hello_world.c                                  */
+/* Filename           : repeat_hello_world_cpp.cpp                            */
 /*                                                                            */
 /* Implementation w/ a function to print Hello World twice                    */
 /*                                                                            */
@@ -8,12 +8,16 @@
 /*----------------------------------------------------------------------------*/
 /*                               Include Files                                */
 /*----------------------------------------------------------------------------*/
+extern "C"
+{
 #include <stdio.h>
 #include "print_hello_world.h"
-#include "repeat_hello_world.h"
+}
+
+#include "repeat_hello_world_cpp.hpp"
 
 /*----------------------------------------------------------------------------*/
-/*                         Private Function Prototypes                        */
+/*                            Private Declarations                            */
 /*----------------------------------------------------------------------------*/
 /* none */
 
@@ -23,7 +27,7 @@
 /* none */
 
 /*----------------------------------------------------------------------------*/
-/*                         Public Function Definitions                        */
+/*                             Public Definitions                             */
 /*----------------------------------------------------------------------------*/
 void print_hello_world_twice(void)
 {
@@ -32,6 +36,6 @@ void print_hello_world_twice(void)
 }
 
 /*----------------------------------------------------------------------------*/
-/*                        Private Function Definitions                        */
+/*                             Private Definitions                            */
 /*----------------------------------------------------------------------------*/
 /* none */

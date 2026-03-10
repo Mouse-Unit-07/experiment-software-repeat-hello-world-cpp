@@ -8,7 +8,7 @@
 /*----------------------------------------------------------------------------*/
 /*                               Include Files                                */
 /*----------------------------------------------------------------------------*/
-#include "repeat_hello_world/repeat_hello_world.h"
+#include "repeat_hello_world_cpp/repeat_hello_world_cpp.hpp"
 
 /*----------------------------------------------------------------------------*/
 /*                         Private Function Prototypes                        */
