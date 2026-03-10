@@ -5,7 +5,7 @@
 #                                                                              #
 #------------------------------------------------------------------------------#
 cmake_minimum_required(VERSION 4.0.2)
-project(repeat_hello_world_project LANGUAGES C) # <== Name your software project
+project(repeat_hello_world_cpp_project LANGUAGES C CXX) # <== Name your software project
 
 include(FetchContent)
 
@@ -19,4 +19,4 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(print_hello_world)
 
 # \/=== Add all library directories (each w/ a CMakeLists.txt)
-add_subdirectory(repeat_hello_world)
+add_subdirectory(repeat_hello_world_cpp)

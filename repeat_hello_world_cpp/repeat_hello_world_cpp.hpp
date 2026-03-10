@@ -1,11 +1,11 @@
 /*-------------------------------- FILE INFO ---------------------------------*/
-/* Filename           : repeat_hello_world.h                                  */
+/* Filename           : repeat_hello_world_cpp.hpp                            */
 /*                                                                            */
 /* Interface w/ a function to repeat Hello World                              */
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
-#ifndef REPEAT_HELLO_WORLD_H_
-#define REPEAT_HELLO_WORLD_H_
+#ifndef REPEAT_HELLO_WORLD_CPP_HPP_
+#define REPEAT_HELLO_WORLD_CPP_HPP_
 
 /*----------------------------------------------------------------------------*/
 /*                             Public Definitions                             */
@@ -13,8 +13,8 @@
 /* none */
 
 /*----------------------------------------------------------------------------*/
-/*                         Public Function Prototypes                         */
+/*                             Public Declarations                            */
 /*----------------------------------------------------------------------------*/
 void print_hello_world_twice(void);
 
-#endif /* REPEAT_HELLO_WORLD_H_ */
+#endif /* REPEAT_HELLO_WORLD_CPP_HPP_ */
