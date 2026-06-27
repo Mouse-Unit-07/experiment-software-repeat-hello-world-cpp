@@ -12,10 +12,11 @@ add_library(repeat_hello_world_cpp_lib STATIC # <== Define this library's build 
 # \/=== Add all directories w/ header files
 target_include_directories(repeat_hello_world_cpp_lib PUBLIC # <=== Rename to your build target
     ${CMAKE_CURRENT_LIST_DIR}
+    $<TARGET_PROPERTY:hello_world_lib,INTERFACE_INCLUDE_DIRECTORIES> # <=== expose your dependency's headers
 )
 
 # \/=== Link to libraries in other GitHub projects
 # Example dependency on Hello World project:
-target_link_libraries(repeat_hello_world_cpp_lib PUBLIC
+target_link_libraries(repeat_hello_world_cpp_lib PRIVATE
     hello_world_lib
 )

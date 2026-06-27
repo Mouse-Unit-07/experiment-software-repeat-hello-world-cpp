@@ -23,7 +23,7 @@ add_subdirectory(repeat_hello_world_cpp)
 
 # \/=== Add all test directories
 if(TARGET_WINDOWS AND SUPPORTS_WINDOWS)
-    if(ENABLE_REPEAT_HELLO_WORLD_CPP_TESTS)
+    if(ENABLE_REPEAT_HELLO_WORLD_CPP_TESTS) # <=== Rename test on/off variable for your project
         add_subdirectory(repeat_hello_world_cpp/tests)
     endif()
 endif()
